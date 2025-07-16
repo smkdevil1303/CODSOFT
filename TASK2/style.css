@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-color: black;
+    height: 300vh;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    background:rgb(65, 168, 65);
+    padding: 10px 10px;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    border: 2px solid white;
+}
+
+.logo{
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.nav-links ul li{
+    display: inline;
+    margin-right: 50px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.home{
+    display: inline-block;
+    font-size: 50px;
+    text-align: left;
+    margin-top: 150px;
+    margin-left: 50px;
+    height: 60vh;
+}
+
+.home h2,p{
+    font-weight: 500;
+}
+
+.discription{
+    font-size: 30px;
+    margin-top: 30px;
+    border: 2px solid white;
+    padding: 5px;
+}
+
+.about{
+    margin-top: 30px;
+    border: 1px solid white;
+    padding: 20px 20px;
+}
+
+.about h2{
+    background-color: brown;
+    padding: 20px 20px;
+    font-size: 40px;
+    font-weight: 700;
+    border: 2px solid white;
+    text-align: center;
+    margin-top: 40px;
+}
+.details{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    letter-spacing: 5px;
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+
+.feedback{
+    text-align: center;
+    margin: 40px;
+}
+.feedback h2{
+    background-color: brown;
+    padding: 20px 20px;
+    font-size: 40px;
+    font-weight: 700;
+    border: 2px solid white;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.form{
+    margin: 20px 20px;
+}
+
+label{
+    display: block;
+    font-size: 30px;
+}
+
+input{
+    width: 50%;
+    display: block;
+    margin: 10px auto;
+    height: 40px;
+    color: black;
+    font-size: 20px;
+    padding: 5px;
+}
+
+textarea{
+    width: 50%;
+    display: block;
+    margin: 10px auto;
+    padding: 5px;
+    height: 100px;
+    color: black;
+    font-size: 20px;
+}
+button{
+    color: black;
+    font-style: inherit;
+    height: 30px;
+    width: 30%;
+    margin-top: 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+footer{
+    background-color: brown;
+    margin-top: 99px;
+}
+footer p{
+    text-align: center;
+    background-color: brown;
+}
